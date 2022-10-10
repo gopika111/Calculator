@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="calc">
+            <input id="output" class="out" type="text">
+            <div class="buttons">
+                <div class="row1">
+                    <button onclick="display(7)" class="button-style">7</button>
+                    <button onclick="display(8)" class="button-style">8</button>
+                    <button onclick="display(9)" class="button-style">9</button>
+                    <button onclick="display('+')" class="button-style">+</button>
+                </div>
+                <div class="row1">
+                    <button onclick="display(6)" class="button-style">6</button>
+                    <button onclick="display(5)" class="button-style">5</button>
+                    <button onclick="display(4)" class="button-style">4</button>
+                    <button onclick="display('-')" class="button-style">-</button>
+                </div>
+                <div class="row1">
+                    <button onclick="display(3)" class="button-style">3</button>
+                    <button onclick="display(2)" class="button-style">2</button>
+                    <button onclick="display(1)" class="button-style">1</button>
+                    <button onclick="display('*')" class="button-style">x</button>
+                </div>
+                <div class="row1">
+                    <button onclick="display(0)" class="button-style">0</button>
+                    <button onclick="display('/')" class="button-style">/</button>
+                    <button onclick="display('.')" class="button-style">.</button>
+                    <button onclick="display('=')" class="button-style">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
